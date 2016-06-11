@@ -1,0 +1,6 @@
+framework module Pods_yodelsampleswift {
+  umbrella header "Pods-yodelsampleswift-umbrella.h"
+
+  export *
+  module * { export * }
+}

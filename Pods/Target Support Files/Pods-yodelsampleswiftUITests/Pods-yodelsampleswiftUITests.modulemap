@@ -1,0 +1,6 @@
+framework module Pods_yodelsampleswiftUITests {
+  umbrella header "Pods-yodelsampleswiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

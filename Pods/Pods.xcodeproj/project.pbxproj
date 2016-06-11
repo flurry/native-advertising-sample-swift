@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0992B2C11045287FD5AFE3714038AB40 /* Pods-yodelsampleswift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE6A20D4DE8DA806F974A7DC66016CEC /* Pods-yodelsampleswift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0AF63253F46EBCC1381F820861338D0A /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A09EE137C9909A1FB05A14E1B2C56D /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BB4C932784F1856AEE4E8B42ACA3D64 /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 8513CBABBE836364245D0E500DB41FD9 /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FEA9779947ABD544A0FD26476DABB8B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */; };
+		16DC4C11BFE7FB7651A264BCA8B76928 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */; };
+		1E04F6335DE79C2863B97D07933AC626 /* FlurryAdsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE9694A3ABC16EF55441C70A4D3684E /* FlurryAdsEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		229A4C11BA74A2D740B6F8D1E54F0DED /* Pods-yodelsampleswiftUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C15945F826025360B4A3FED805C5E02 /* Pods-yodelsampleswiftUITests-dummy.m */; };
+		253AD7DB17CA80709692CE7B0D6EC3AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		27A782990388A51435130381A8B8F318 /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = CDE7AEE8C58DBC1F405CA91FEC2DF997 /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B07F4C9D116FD8D6D7B8F9C1245078E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		2F75B28855C19EB9426E5E391B6E49A5 /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = F797F6A9253FB3F4DB98211700ED0EF0 /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A0E6867CCA7E78DE0CCC8596992506C /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = B269F552729281739EB5F54DD0882FD9 /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B2A9A7208EE20D2ED534D60FE9E66AB /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E1ABACA33EB93194C286774F9210FDE /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4329B253A8B9A210E277E97DB2C9B04F /* Flurry-iOS-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDAC9E7F1BB4F8BB1E66FD0D38D165AB /* Flurry-iOS-SDK-dummy.m */; };
+		439591F642F5C2275A0BBA74458A77E5 /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = AB0942763151D33D3B5497492A88022F /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5433E2F47FFB64C49D8541BB7D46E18C /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6078FD68EA7B72B852E0370163464ACA /* FlurryAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		593F179B719AADAD916ABB6AFF1E5979 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */; };
+		5F77C732A065EC1C9F639D9536226700 /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = D7457CFCB9126AC1726965026921F35F /* FlurryEmpty.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6A784134A9177770A2C48BE2B6DFFB73 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */; };
+		6B2B1E82CBA92CD452C7B6F45FB4B4A6 /* Pods-yodelsampleswiftTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B9379EB18C459832A0B8E4F9BB27D593 /* Pods-yodelsampleswiftTests-dummy.m */; };
+		7C59B98BF293748D46FA8237F0F9FC00 /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 38542D01D3D1862B4966328F09327E2B /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC954FDE3186E164F399EA81FCEB66E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */; };
+		821A1B0FB8732C00BACA86CD14AD93A8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */; };
+		9CD2BA5A727964F370B8F95393F00716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		AFB1CDF9F2FEB1B30EF02C16541BAF03 /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 22D200184EF1988A29BF1632F56E22C0 /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1201E6C0576220E2EF0A0504C57B544 /* Pods-yodelsampleswiftTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CA85A0BA52C1673E011A4F28B50C3264 /* Pods-yodelsampleswiftTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B14D69D7B97B075F287D64C567C38BB0 /* Pods-yodelsampleswiftUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 26599F697D44720F02C5EB4012B7C29F /* Pods-yodelsampleswiftUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8ACB50DF670EB104E919EE1BFBA12F9 /* FlurryAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 826D5ABAF110A8E229C1E2B592704C0C /* FlurryAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBB528D59C1D6525698C4264945EBD11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */; };
+		DFC7DD59E04331E716327A20F9768408 /* Flurry-iOS-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69EA8CEF04FC055D646BA2B136667D3 /* Flurry-iOS-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E060218FFB9A36950220D0C12805D7E0 /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 94EB55EE0C8341FB1F769D00EE63B511 /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E79D6CB3A90C0967AD3C04B0739DC977 /* Pods-yodelsampleswift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C0B68456A8C5A86E32F75B0D4E037FCF /* Pods-yodelsampleswift-dummy.m */; };
+		F031C9606E58A3D4BEC44A4E1A72D728 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */; };
+		FC641CE8B756CD324A4E32416C9A82EE /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 36430CA5EC8AFFA5629F9E66EDB0444A /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71420D26D80DAB294E638FC09084D89E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 250B10E34501899CDA235B13E914A9ED;
+			remoteInfo = "Flurry-iOS-SDK";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		005C37C93A9EDDD776463EDA4BA3B801 /* Pods-yodelsampleswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		0312099284ADA97E49BE16AAA62AAC85 /* Pods-yodelsampleswiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		11212E63041D0A18BDFA3631FEB8365D /* Flurry-iOS-SDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Flurry-iOS-SDK.xcconfig"; sourceTree = "<group>"; };
+		1A08ECBB1BCF1D117203E21AC3A188F1 /* Pods-yodelsampleswiftUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswiftUITests-frameworks.sh"; sourceTree = "<group>"; };
+		20A8877600D74ABD81BA060BEE2F102E /* Flurry_iOS_SDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Flurry_iOS_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22D200184EF1988A29BF1632F56E22C0 /* FlurryAdBanner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBanner.h; path = FlurryAds/FlurryAdBanner/FlurryAdBanner.h; sourceTree = "<group>"; };
+		26599F697D44720F02C5EB4012B7C29F /* Pods-yodelsampleswiftUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yodelsampleswiftUITests-umbrella.h"; sourceTree = "<group>"; };
+		26C0807AF697536657A03787FCAEB831 /* Pods_yodelsampleswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2782E7F87D43D38CEE75811D1C96DA81 /* Pods_yodelsampleswiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C15945F826025360B4A3FED805C5E02 /* Pods-yodelsampleswiftUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yodelsampleswiftUITests-dummy.m"; sourceTree = "<group>"; };
+		2E1ABACA33EB93194C286774F9210FDE /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitial.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		2EDDDCADE0DDAE5983EA2402CF72278D /* Pods-yodelsampleswiftUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-yodelsampleswiftUITests.modulemap"; sourceTree = "<group>"; };
+		2F0EBF15EFAF6448DA8C471B9C5B83B7 /* Pods-yodelsampleswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswift.release.xcconfig"; sourceTree = "<group>"; };
+		351FECFDB10FEC7AB9AA0E9409D4C270 /* Pods-yodelsampleswift-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yodelsampleswift-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36430CA5EC8AFFA5629F9E66EDB0444A /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdInterstitialDelegate.h; path = FlurryAds/FlurryAdInterstitial/FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		38542D01D3D1862B4966328F09327E2B /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeDelegate.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		4626B84F60B107C799FB3EFAA77BC69C /* Pods-yodelsampleswift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-yodelsampleswift.modulemap"; sourceTree = "<group>"; };
+		5300F0AEC9A0D1D63DEDEE7DA4CE87A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A09EE137C9909A1FB05A14E1B2C56D /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdBannerDelegate.h; path = FlurryAds/FlurryAdBanner/FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		6078FD68EA7B72B852E0370163464ACA /* FlurryAdError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdError.h; path = FlurryAds/Shared/FlurryAdError.h; sourceTree = "<group>"; };
+		60B7E407CC2CEBF3DD253FDAEFD4BEA3 /* Pods_yodelsampleswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C933E57C8C13809D0A13C0B6E654AF7 /* libFlurryAds_7.6.3.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurryAds_7.6.3.a; path = FlurryAds/libFlurryAds_7.6.3.a; sourceTree = "<group>"; };
+		7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		826D5ABAF110A8E229C1E2B592704C0C /* FlurryAds.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAds.h; path = FlurryAds/StaticAPI/FlurryAds.h; sourceTree = "<group>"; };
+		8513CBABBE836364245D0E500DB41FD9 /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeStyle.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		8928D81DFC1C4BB542DB15CFD1B577AB /* Pods-yodelsampleswift-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswift-resources.sh"; sourceTree = "<group>"; };
+		89BA21C4CBACA49139808E3AACC99E64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C157B3F6874BF0889C52DBBFF0724A8 /* Pods-yodelsampleswiftTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yodelsampleswiftTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8E7113845C13BCE181662A2D72B2E824 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EE43BEE606EE8DEE7D199B8B41A8EC7 /* Flurry-iOS-SDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Flurry-iOS-SDK.modulemap"; sourceTree = "<group>"; };
+		936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94EB55EE0C8341FB1F769D00EE63B511 /* FlurryAdDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdDelegate.h; path = FlurryAds/StaticAPI/FlurryAdDelegate.h; sourceTree = "<group>"; };
+		95A46EFE28F5E53362DDBDC61328EBFF /* Pods-yodelsampleswift-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yodelsampleswift-acknowledgements.plist"; sourceTree = "<group>"; };
+		9AE531E8573390EEAB7E35EBECA79028 /* Pods-yodelsampleswiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A114E80017B427739EA0D7023E9B67B3 /* Pods-yodelsampleswiftTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yodelsampleswiftTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A24E2CE3F6404C9DEA741E201FCAB1C5 /* Pods-yodelsampleswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswift.debug.xcconfig"; sourceTree = "<group>"; };
+		AB0942763151D33D3B5497492A88022F /* Flurry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Flurry.h; path = Flurry/Flurry.h; sourceTree = "<group>"; };
+		AC498D9E0B34D9C7300CB51918C1E800 /* Pods-yodelsampleswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-yodelsampleswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF8BF21A24C969D6E23CEE2BE405E95E /* Pods-yodelsampleswiftUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-yodelsampleswiftUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B1E4CAA11A9C4672809DC496F8F7F68D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B269F552729281739EB5F54DD0882FD9 /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNativeAsset.h; path = FlurryAds/FlurryAdNative/FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		B9379EB18C459832A0B8E4F9BB27D593 /* Pods-yodelsampleswiftTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yodelsampleswiftTests-dummy.m"; sourceTree = "<group>"; };
+		C0B68456A8C5A86E32F75B0D4E037FCF /* Pods-yodelsampleswift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-yodelsampleswift-dummy.m"; sourceTree = "<group>"; };
+		C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		C69EA8CEF04FC055D646BA2B136667D3 /* Flurry-iOS-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-umbrella.h"; sourceTree = "<group>"; };
+		C6D9AB50F0D346436919D1218D52D700 /* Pods-yodelsampleswiftTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswiftTests-frameworks.sh"; sourceTree = "<group>"; };
+		C74530C2B1B45CF40CD1804EE34009E9 /* Pods-yodelsampleswiftTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswiftTests-resources.sh"; sourceTree = "<group>"; };
+		C8C5E7F752BAD8F7C0C522161ECD861C /* Pods-yodelsampleswiftTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-yodelsampleswiftTests.modulemap"; sourceTree = "<group>"; };
+		CA85A0BA52C1673E011A4F28B50C3264 /* Pods-yodelsampleswiftTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yodelsampleswiftTests-umbrella.h"; sourceTree = "<group>"; };
+		CB67C893886CB52B777C15F4729F9EF3 /* Pods-yodelsampleswiftUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-yodelsampleswiftUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDAC9E7F1BB4F8BB1E66FD0D38D165AB /* Flurry-iOS-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Flurry-iOS-SDK-dummy.m"; sourceTree = "<group>"; };
+		CDE7AEE8C58DBC1F405CA91FEC2DF997 /* FlurryAdNative.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdNative.h; path = FlurryAds/FlurryAdNative/FlurryAdNative.h; sourceTree = "<group>"; };
+		CFC1BB22EA9CCCB5B51C128AA749B254 /* Pods-yodelsampleswift-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswift-frameworks.sh"; sourceTree = "<group>"; };
+		D2345A4DD83136A632FF6021027E035C /* Pods-yodelsampleswiftUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-yodelsampleswiftUITests-resources.sh"; sourceTree = "<group>"; };
+		D7457CFCB9126AC1726965026921F35F /* FlurryEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryEmpty.m; path = Flurry/FlurryEmpty.m; sourceTree = "<group>"; };
+		D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E03AC9E94D60E3972F56BAAFF84B930E /* libFlurry_7.6.3.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libFlurry_7.6.3.a; path = Flurry/libFlurry_7.6.3.a; sourceTree = "<group>"; };
+		EE6A20D4DE8DA806F974A7DC66016CEC /* Pods-yodelsampleswift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-yodelsampleswift-umbrella.h"; sourceTree = "<group>"; };
+		EFB28F1BD4FF17184633791F93A750A9 /* Flurry-iOS-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Flurry-iOS-SDK-prefix.pch"; sourceTree = "<group>"; };
+		F797F6A9253FB3F4DB98211700ED0EF0 /* FlurryAdTargeting.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FlurryAdTargeting.h; path = FlurryAds/Shared/FlurryAdTargeting.h; sourceTree = "<group>"; };
+		FAE9694A3ABC16EF55441C70A4D3684E /* FlurryAdsEmpty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlurryAdsEmpty.m; path = FlurryAds/FlurryAdsEmpty.m; sourceTree = "<group>"; };
+		FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86CE9A255E467FBD9B34479002D538DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B07F4C9D116FD8D6D7B8F9C1245078E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5B6B4A6A994869FCD34E85F692C0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB528D59C1D6525698C4264945EBD11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9FCB67EA99A49EE278F35E072604F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CD2BA5A727964F370B8F95393F00716 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA1F53B46B2195C6F1A01A0D9151819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16DC4C11BFE7FB7651A264BCA8B76928 /* AVFoundation.framework in Frameworks */,
+				F031C9606E58A3D4BEC44A4E1A72D728 /* CoreGraphics.framework in Frameworks */,
+				821A1B0FB8732C00BACA86CD14AD93A8 /* CoreMedia.framework in Frameworks */,
+				253AD7DB17CA80709692CE7B0D6EC3AA /* Foundation.framework in Frameworks */,
+				6A784134A9177770A2C48BE2B6DFFB73 /* MediaPlayer.framework in Frameworks */,
+				593F179B719AADAD916ABB6AFF1E5979 /* Security.framework in Frameworks */,
+				7FC954FDE3186E164F399EA81FCEB66E /* SystemConfiguration.framework in Frameworks */,
+				0FEA9779947ABD544A0FD26476DABB8B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0411775D92A9B9185E8E647F4EB70F06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C933E57C8C13809D0A13C0B6E654AF7 /* libFlurryAds_7.6.3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08745EF95D7FB1B1C28C7B14630CD72F /* Flurry-iOS-SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D54235A34897854912A3A98968A10AD8 /* FlurryAds */,
+				34DD63233BFA7E49F2A11598E77E42A9 /* FlurrySDK */,
+				9C68A8B28C8E7E4637998BFF441BD472 /* Support Files */,
+			);
+			path = "Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		2CBB2866612071594D583328C9BBA141 /* Pods-yodelsampleswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				B1E4CAA11A9C4672809DC496F8F7F68D /* Info.plist */,
+				C8C5E7F752BAD8F7C0C522161ECD861C /* Pods-yodelsampleswiftTests.modulemap */,
+				A114E80017B427739EA0D7023E9B67B3 /* Pods-yodelsampleswiftTests-acknowledgements.markdown */,
+				8C157B3F6874BF0889C52DBBFF0724A8 /* Pods-yodelsampleswiftTests-acknowledgements.plist */,
+				B9379EB18C459832A0B8E4F9BB27D593 /* Pods-yodelsampleswiftTests-dummy.m */,
+				C6D9AB50F0D346436919D1218D52D700 /* Pods-yodelsampleswiftTests-frameworks.sh */,
+				C74530C2B1B45CF40CD1804EE34009E9 /* Pods-yodelsampleswiftTests-resources.sh */,
+				CA85A0BA52C1673E011A4F28B50C3264 /* Pods-yodelsampleswiftTests-umbrella.h */,
+				AC498D9E0B34D9C7300CB51918C1E800 /* Pods-yodelsampleswiftTests.debug.xcconfig */,
+				005C37C93A9EDDD776463EDA4BA3B801 /* Pods-yodelsampleswiftTests.release.xcconfig */,
+			);
+			name = "Pods-yodelsampleswiftTests";
+			path = "Target Support Files/Pods-yodelsampleswiftTests";
+			sourceTree = "<group>";
+		};
+		34DD63233BFA7E49F2A11598E77E42A9 /* FlurrySDK */ = {
+			isa = PBXGroup;
+			children = (
+				AB0942763151D33D3B5497492A88022F /* Flurry.h */,
+				D7457CFCB9126AC1726965026921F35F /* FlurryEmpty.m */,
+				4DB13334E4177AEC51BC95C345AE3004 /* Frameworks */,
+			);
+			name = FlurrySDK;
+			sourceTree = "<group>";
+		};
+		4DB13334E4177AEC51BC95C345AE3004 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E03AC9E94D60E3972F56BAAFF84B930E /* libFlurry_7.6.3.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B8ACB80EC8CAD7106D2F38430A752D7 /* Pods-yodelsampleswift */ = {
+			isa = PBXGroup;
+			children = (
+				8E7113845C13BCE181662A2D72B2E824 /* Info.plist */,
+				4626B84F60B107C799FB3EFAA77BC69C /* Pods-yodelsampleswift.modulemap */,
+				351FECFDB10FEC7AB9AA0E9409D4C270 /* Pods-yodelsampleswift-acknowledgements.markdown */,
+				95A46EFE28F5E53362DDBDC61328EBFF /* Pods-yodelsampleswift-acknowledgements.plist */,
+				C0B68456A8C5A86E32F75B0D4E037FCF /* Pods-yodelsampleswift-dummy.m */,
+				CFC1BB22EA9CCCB5B51C128AA749B254 /* Pods-yodelsampleswift-frameworks.sh */,
+				8928D81DFC1C4BB542DB15CFD1B577AB /* Pods-yodelsampleswift-resources.sh */,
+				EE6A20D4DE8DA806F974A7DC66016CEC /* Pods-yodelsampleswift-umbrella.h */,
+				A24E2CE3F6404C9DEA741E201FCAB1C5 /* Pods-yodelsampleswift.debug.xcconfig */,
+				2F0EBF15EFAF6448DA8C471B9C5B83B7 /* Pods-yodelsampleswift.release.xcconfig */,
+			);
+			name = "Pods-yodelsampleswift";
+			path = "Target Support Files/Pods-yodelsampleswift";
+			sourceTree = "<group>";
+		};
+		785553737B06AFC3DA711DDEB7D56194 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8AE09490A7CA8EEC33BE68C12E6393 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				785553737B06AFC3DA711DDEB7D56194 /* Frameworks */,
+				ACDDE0CADA4CA088A63F07511D9341F2 /* Pods */,
+				A83DF8A588447275C89ACB61E8C06138 /* Products */,
+				A7E120D136F997B19A2A1289ECDB6FA1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9C68A8B28C8E7E4637998BFF441BD472 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EE43BEE606EE8DEE7D199B8B41A8EC7 /* Flurry-iOS-SDK.modulemap */,
+				11212E63041D0A18BDFA3631FEB8365D /* Flurry-iOS-SDK.xcconfig */,
+				CDAC9E7F1BB4F8BB1E66FD0D38D165AB /* Flurry-iOS-SDK-dummy.m */,
+				EFB28F1BD4FF17184633791F93A750A9 /* Flurry-iOS-SDK-prefix.pch */,
+				C69EA8CEF04FC055D646BA2B136667D3 /* Flurry-iOS-SDK-umbrella.h */,
+				5300F0AEC9A0D1D63DEDEE7DA4CE87A1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Flurry-iOS-SDK";
+			sourceTree = "<group>";
+		};
+		9F8AE09490A7CA8EEC33BE68C12E6393 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7F44C7E8104DB13ECD703C14785C7C31 /* AVFoundation.framework */,
+				936F994218D3B5FC32A39E969FDB338A /* CoreGraphics.framework */,
+				C1AB04F244C28ADDD4955547BD7D401C /* CoreMedia.framework */,
+				D8CC96E7D2DCEE95E2A647622B56BDBE /* Foundation.framework */,
+				5F84ED822BBD6078FC69A4AD2FE159D9 /* MediaPlayer.framework */,
+				FF727D86F965F11E4CDCACFF3C01DCAF /* Security.framework */,
+				B6CD3DE5A8EA4E394E6B99E0D365878D /* SystemConfiguration.framework */,
+				FEF6A42EFE7C92C77C13B97F492C2234 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A7E120D136F997B19A2A1289ECDB6FA1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B8ACB80EC8CAD7106D2F38430A752D7 /* Pods-yodelsampleswift */,
+				2CBB2866612071594D583328C9BBA141 /* Pods-yodelsampleswiftTests */,
+				CACBE8CA14E59DDA4821D9CDA911C457 /* Pods-yodelsampleswiftUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A83DF8A588447275C89ACB61E8C06138 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A8877600D74ABD81BA060BEE2F102E /* Flurry_iOS_SDK.framework */,
+				26C0807AF697536657A03787FCAEB831 /* Pods_yodelsampleswift.framework */,
+				60B7E407CC2CEBF3DD253FDAEFD4BEA3 /* Pods_yodelsampleswiftTests.framework */,
+				2782E7F87D43D38CEE75811D1C96DA81 /* Pods_yodelsampleswiftUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACDDE0CADA4CA088A63F07511D9341F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08745EF95D7FB1B1C28C7B14630CD72F /* Flurry-iOS-SDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CACBE8CA14E59DDA4821D9CDA911C457 /* Pods-yodelsampleswiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89BA21C4CBACA49139808E3AACC99E64 /* Info.plist */,
+				2EDDDCADE0DDAE5983EA2402CF72278D /* Pods-yodelsampleswiftUITests.modulemap */,
+				AF8BF21A24C969D6E23CEE2BE405E95E /* Pods-yodelsampleswiftUITests-acknowledgements.markdown */,
+				CB67C893886CB52B777C15F4729F9EF3 /* Pods-yodelsampleswiftUITests-acknowledgements.plist */,
+				2C15945F826025360B4A3FED805C5E02 /* Pods-yodelsampleswiftUITests-dummy.m */,
+				1A08ECBB1BCF1D117203E21AC3A188F1 /* Pods-yodelsampleswiftUITests-frameworks.sh */,
+				D2345A4DD83136A632FF6021027E035C /* Pods-yodelsampleswiftUITests-resources.sh */,
+				26599F697D44720F02C5EB4012B7C29F /* Pods-yodelsampleswiftUITests-umbrella.h */,
+				9AE531E8573390EEAB7E35EBECA79028 /* Pods-yodelsampleswiftUITests.debug.xcconfig */,
+				0312099284ADA97E49BE16AAA62AAC85 /* Pods-yodelsampleswiftUITests.release.xcconfig */,
+			);
+			name = "Pods-yodelsampleswiftUITests";
+			path = "Target Support Files/Pods-yodelsampleswiftUITests";
+			sourceTree = "<group>";
+		};
+		D54235A34897854912A3A98968A10AD8 /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				22D200184EF1988A29BF1632F56E22C0 /* FlurryAdBanner.h */,
+				58A09EE137C9909A1FB05A14E1B2C56D /* FlurryAdBannerDelegate.h */,
+				94EB55EE0C8341FB1F769D00EE63B511 /* FlurryAdDelegate.h */,
+				6078FD68EA7B72B852E0370163464ACA /* FlurryAdError.h */,
+				2E1ABACA33EB93194C286774F9210FDE /* FlurryAdInterstitial.h */,
+				36430CA5EC8AFFA5629F9E66EDB0444A /* FlurryAdInterstitialDelegate.h */,
+				CDE7AEE8C58DBC1F405CA91FEC2DF997 /* FlurryAdNative.h */,
+				B269F552729281739EB5F54DD0882FD9 /* FlurryAdNativeAsset.h */,
+				38542D01D3D1862B4966328F09327E2B /* FlurryAdNativeDelegate.h */,
+				8513CBABBE836364245D0E500DB41FD9 /* FlurryAdNativeStyle.h */,
+				826D5ABAF110A8E229C1E2B592704C0C /* FlurryAds.h */,
+				FAE9694A3ABC16EF55441C70A4D3684E /* FlurryAdsEmpty.m */,
+				F797F6A9253FB3F4DB98211700ED0EF0 /* FlurryAdTargeting.h */,
+				0411775D92A9B9185E8E647F4EB70F06 /* Frameworks */,
+			);
+			name = FlurryAds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		266F0F34416D62A17F4E2B785D7A7B1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1201E6C0576220E2EF0A0504C57B544 /* Pods-yodelsampleswiftTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5149C541AF685D11933B95D522472C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0992B2C11045287FD5AFE3714038AB40 /* Pods-yodelsampleswift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABB6B2BFD3680C912B1D37E31D6B0DA9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC7DD59E04331E716327A20F9768408 /* Flurry-iOS-SDK-umbrella.h in Headers */,
+				439591F642F5C2275A0BBA74458A77E5 /* Flurry.h in Headers */,
+				AFB1CDF9F2FEB1B30EF02C16541BAF03 /* FlurryAdBanner.h in Headers */,
+				0AF63253F46EBCC1381F820861338D0A /* FlurryAdBannerDelegate.h in Headers */,
+				E060218FFB9A36950220D0C12805D7E0 /* FlurryAdDelegate.h in Headers */,
+				5433E2F47FFB64C49D8541BB7D46E18C /* FlurryAdError.h in Headers */,
+				3B2A9A7208EE20D2ED534D60FE9E66AB /* FlurryAdInterstitial.h in Headers */,
+				FC641CE8B756CD324A4E32416C9A82EE /* FlurryAdInterstitialDelegate.h in Headers */,
+				27A782990388A51435130381A8B8F318 /* FlurryAdNative.h in Headers */,
+				3A0E6867CCA7E78DE0CCC8596992506C /* FlurryAdNativeAsset.h in Headers */,
+				7C59B98BF293748D46FA8237F0F9FC00 /* FlurryAdNativeDelegate.h in Headers */,
+				0BB4C932784F1856AEE4E8B42ACA3D64 /* FlurryAdNativeStyle.h in Headers */,
+				C8ACB50DF670EB104E919EE1BFBA12F9 /* FlurryAds.h in Headers */,
+				2F75B28855C19EB9426E5E391B6E49A5 /* FlurryAdTargeting.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1DB9FFFEBB46441A3826DED6C8ACE9C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14D69D7B97B075F287D64C567C38BB0 /* Pods-yodelsampleswiftUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		250B10E34501899CDA235B13E914A9ED /* Flurry-iOS-SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C970FC4C2EF08DC8E0D5907DBDDC2F72 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */;
+			buildPhases = (
+				3605350C36BEB6A5F527F2DE77AF12DC /* Sources */,
+				DDA1F53B46B2195C6F1A01A0D9151819 /* Frameworks */,
+				ABB6B2BFD3680C912B1D37E31D6B0DA9 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flurry-iOS-SDK";
+			productName = "Flurry-iOS-SDK";
+			productReference = 20A8877600D74ABD81BA060BEE2F102E /* Flurry_iOS_SDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		99B8DC5CF4116A651009C0492B63DF24 /* Pods-yodelsampleswiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C44CA0E70CBEB9176E44B92BD458FB7C /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswiftUITests" */;
+			buildPhases = (
+				983FF577AFB8C38EEAB9E727BD7AA67D /* Sources */,
+				8A5B6B4A6A994869FCD34E85F692C0FE /* Frameworks */,
+				E1DB9FFFEBB46441A3826DED6C8ACE9C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-yodelsampleswiftUITests";
+			productName = "Pods-yodelsampleswiftUITests";
+			productReference = 2782E7F87D43D38CEE75811D1C96DA81 /* Pods_yodelsampleswiftUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C518E5CAEECF8718E805C702442FC4DF /* Pods-yodelsampleswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 025A40228D6FB3362CBB0A7B8773A4C3 /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswift" */;
+			buildPhases = (
+				BEADDCCF17006E9BCD900F6B3077A444 /* Sources */,
+				86CE9A255E467FBD9B34479002D538DD /* Frameworks */,
+				5149C541AF685D11933B95D522472C82 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D019EA9EDCB146ABD957CD457645A61 /* PBXTargetDependency */,
+			);
+			name = "Pods-yodelsampleswift";
+			productName = "Pods-yodelsampleswift";
+			productReference = 26C0807AF697536657A03787FCAEB831 /* Pods_yodelsampleswift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CE1F9F2E66681CF4606A9DB54D04F9A5 /* Pods-yodelsampleswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A85830D8095ADC92DA6E9BEABE420C /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswiftTests" */;
+			buildPhases = (
+				1D9D580C7539700A2E856A2A719A0345 /* Sources */,
+				D9FCB67EA99A49EE278F35E072604F63 /* Frameworks */,
+				266F0F34416D62A17F4E2B785D7A7B1F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-yodelsampleswiftTests";
+			productName = "Pods-yodelsampleswiftTests";
+			productReference = 60B7E407CC2CEBF3DD253FDAEFD4BEA3 /* Pods_yodelsampleswiftTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A83DF8A588447275C89ACB61E8C06138 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				250B10E34501899CDA235B13E914A9ED /* Flurry-iOS-SDK */,
+				C518E5CAEECF8718E805C702442FC4DF /* Pods-yodelsampleswift */,
+				CE1F9F2E66681CF4606A9DB54D04F9A5 /* Pods-yodelsampleswiftTests */,
+				99B8DC5CF4116A651009C0492B63DF24 /* Pods-yodelsampleswiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D9D580C7539700A2E856A2A719A0345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B2B1E82CBA92CD452C7B6F45FB4B4A6 /* Pods-yodelsampleswiftTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3605350C36BEB6A5F527F2DE77AF12DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4329B253A8B9A210E277E97DB2C9B04F /* Flurry-iOS-SDK-dummy.m in Sources */,
+				1E04F6335DE79C2863B97D07933AC626 /* FlurryAdsEmpty.m in Sources */,
+				5F77C732A065EC1C9F639D9536226700 /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983FF577AFB8C38EEAB9E727BD7AA67D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229A4C11BA74A2D740B6F8D1E54F0DED /* Pods-yodelsampleswiftUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEADDCCF17006E9BCD900F6B3077A444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E79D6CB3A90C0967AD3C04B0739DC977 /* Pods-yodelsampleswift-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D019EA9EDCB146ABD957CD457645A61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Flurry-iOS-SDK";
+			target = 250B10E34501899CDA235B13E914A9ED /* Flurry-iOS-SDK */;
+			targetProxy = 71420D26D80DAB294E638FC09084D89E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46EE69AF77A148AF92860F097B5698B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4A3EF7DD180DBA297E228726AD748644 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AE531E8573390EEAB7E35EBECA79028 /* Pods-yodelsampleswiftUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswiftUITests/Pods-yodelsampleswiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		57AA9F25207A799C367B627CC844494C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F0EBF15EFAF6448DA8C471B9C5B83B7 /* Pods-yodelsampleswift.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		57D17789EE9E94A8C8BE9956E768171F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 005C37C93A9EDDD776463EDA4BA3B801 /* Pods-yodelsampleswiftTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7A156876A8824526ED495550DF098FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		864737C895BA1F1EE6758660E86552AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A24E2CE3F6404C9DEA741E201FCAB1C5 /* Pods-yodelsampleswift.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C313FCD5DF52ACECBB3960B956D7F620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0312099284ADA97E49BE16AAA62AAC85 /* Pods-yodelsampleswiftUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswiftUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswiftUITests/Pods-yodelsampleswiftUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswiftUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CAE035F94B4D7E1270A19D3BD085AE05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11212E63041D0A18BDFA3631FEB8365D /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F0796967AF40387306716CF6B888709E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11212E63041D0A18BDFA3631FEB8365D /* Flurry-iOS-SDK.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Flurry-iOS-SDK/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Flurry-iOS-SDK/Flurry-iOS-SDK.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Flurry_iOS_SDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F38D21ACF1ACE5DB5AFFFEB5FBB6320E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC498D9E0B34D9C7300CB51918C1E800 /* Pods-yodelsampleswiftTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-yodelsampleswiftTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_yodelsampleswiftTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		025A40228D6FB3362CBB0A7B8773A4C3 /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864737C895BA1F1EE6758660E86552AD /* Debug */,
+				57AA9F25207A799C367B627CC844494C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46EE69AF77A148AF92860F097B5698B1 /* Debug */,
+				7A156876A8824526ED495550DF098FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C44CA0E70CBEB9176E44B92BD458FB7C /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3EF7DD180DBA297E228726AD748644 /* Debug */,
+				C313FCD5DF52ACECBB3960B956D7F620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A85830D8095ADC92DA6E9BEABE420C /* Build configuration list for PBXNativeTarget "Pods-yodelsampleswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38D21ACF1ACE5DB5AFFFEB5FBB6320E /* Debug */,
+				57D17789EE9E94A8C8BE9956E768171F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C970FC4C2EF08DC8E0D5907DBDDC2F72 /* Build configuration list for PBXNativeTarget "Flurry-iOS-SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAE035F94B4D7E1270A19D3BD085AE05 /* Debug */,
+				F0796967AF40387306716CF6B888709E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

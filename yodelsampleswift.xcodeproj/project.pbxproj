@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B6D97A628DD22A0BB167A4D /* Pods_yodelsampleswiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 470498DFE0548D3B689547C3 /* Pods_yodelsampleswiftTests.framework */; };
+		1DB50AB6FEC218F3CC68A56D /* Pods_yodelsampleswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23C65FAC61FB4217BF0E843 /* Pods_yodelsampleswift.framework */; };
+		4FD204807D24AF777B64E6F6 /* Pods_yodelsampleswiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB740ACC67252BB7592AC87 /* Pods_yodelsampleswiftUITests.framework */; };
+		DC197D421CFF91D60075D0DD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC197D411CFF91D60075D0DD /* MapViewController.swift */; };
+		DCD4ED1E1CF3A91B002431D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED1D1CF3A91B002431D5 /* AppDelegate.swift */; };
+		DCD4ED201CF3A91B002431D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED1F1CF3A91B002431D5 /* ViewController.swift */; };
+		DCD4ED231CF3A91B002431D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD4ED211CF3A91B002431D5 /* Main.storyboard */; };
+		DCD4ED251CF3A91B002431D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCD4ED241CF3A91B002431D5 /* Assets.xcassets */; };
+		DCD4ED281CF3A91B002431D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCD4ED261CF3A91B002431D5 /* LaunchScreen.storyboard */; };
+		DCD4ED331CF3A91B002431D5 /* yodelsampleswiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED321CF3A91B002431D5 /* yodelsampleswiftTests.swift */; };
+		DCD4ED3E1CF3A91B002431D5 /* yodelsampleswiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED3D1CF3A91B002431D5 /* yodelsampleswiftUITests.swift */; };
+		DCD4ED691CF3C4B6002431D5 /* NativeAdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED681CF3C4B6002431D5 /* NativeAdCell.swift */; };
+		DCD4ED801CF66A2C002431D5 /* TumblrFetchr.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED7F1CF66A2C002431D5 /* TumblrFetchr.swift */; };
+		DCD4ED821CF79B5D002431D5 /* PostClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED811CF79B5D002431D5 /* PostClass.swift */; };
+		DCD4ED841CF7D2D8002431D5 /* TumblrPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCD4ED831CF7D2D8002431D5 /* TumblrPostCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DCD4ED2F1CF3A91B002431D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD4ED121CF3A91B002431D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD4ED191CF3A91B002431D5;
+			remoteInfo = yodelsampleswift;
+		};
+		DCD4ED3A1CF3A91B002431D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DCD4ED121CF3A91B002431D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DCD4ED191CF3A91B002431D5;
+			remoteInfo = yodelsampleswift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		274C8B9DDDD24AD01016A8FA /* Pods-yodelsampleswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6C971A38897E05D42EFA5C /* Pods-yodelsampleswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		470498DFE0548D3B689547C3 /* Pods_yodelsampleswiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E207095178BFD045C956BE6 /* Pods-yodelsampleswiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswiftUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswiftUITests/Pods-yodelsampleswiftUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7D0EF182F1E6EA7FD7631FFC /* Pods-yodelsampleswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift.release.xcconfig"; sourceTree = "<group>"; };
+		8512CEA75F3E5B166344652F /* Pods-yodelsampleswiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswiftUITests/Pods-yodelsampleswiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D23C65FAC61FB4217BF0E843 /* Pods_yodelsampleswift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC197D411CFF91D60075D0DD /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DCD4ED1A1CF3A91B002431D5 /* Yodel Travel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yodel Travel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4ED1D1CF3A91B002431D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DCD4ED1F1CF3A91B002431D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCD4ED221CF3A91B002431D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCD4ED241CF3A91B002431D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCD4ED271CF3A91B002431D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCD4ED291CF3A91B002431D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4ED2E1CF3A91B002431D5 /* yodelsampleswiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yodelsampleswiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4ED321CF3A91B002431D5 /* yodelsampleswiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yodelsampleswiftTests.swift; sourceTree = "<group>"; };
+		DCD4ED341CF3A91B002431D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4ED391CF3A91B002431D5 /* yodelsampleswiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yodelsampleswiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCD4ED3D1CF3A91B002431D5 /* yodelsampleswiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yodelsampleswiftUITests.swift; sourceTree = "<group>"; };
+		DCD4ED3F1CF3A91B002431D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCD4ED681CF3C4B6002431D5 /* NativeAdCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NativeAdCell.swift; sourceTree = "<group>"; };
+		DCD4ED7F1CF66A2C002431D5 /* TumblrFetchr.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrFetchr.swift; sourceTree = "<group>"; };
+		DCD4ED811CF79B5D002431D5 /* PostClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostClass.swift; sourceTree = "<group>"; };
+		DCD4ED831CF7D2D8002431D5 /* TumblrPostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TumblrPostCell.swift; sourceTree = "<group>"; };
+		EBB740ACC67252BB7592AC87 /* Pods_yodelsampleswiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yodelsampleswiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F68C9774A11D9507731F5BDF /* Pods-yodelsampleswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yodelsampleswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCD4ED171CF3A91B002431D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DB50AB6FEC218F3CC68A56D /* Pods_yodelsampleswift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED2B1CF3A91B002431D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6D97A628DD22A0BB167A4D /* Pods_yodelsampleswiftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED361CF3A91B002431D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FD204807D24AF777B64E6F6 /* Pods_yodelsampleswiftUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29213DA7F64D865977D0A710 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23C65FAC61FB4217BF0E843 /* Pods_yodelsampleswift.framework */,
+				470498DFE0548D3B689547C3 /* Pods_yodelsampleswiftTests.framework */,
+				EBB740ACC67252BB7592AC87 /* Pods_yodelsampleswiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CA8E4D1EA330BF623775B6E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				274C8B9DDDD24AD01016A8FA /* Pods-yodelsampleswift.debug.xcconfig */,
+				7D0EF182F1E6EA7FD7631FFC /* Pods-yodelsampleswift.release.xcconfig */,
+				3E6C971A38897E05D42EFA5C /* Pods-yodelsampleswiftTests.debug.xcconfig */,
+				F68C9774A11D9507731F5BDF /* Pods-yodelsampleswiftTests.release.xcconfig */,
+				8512CEA75F3E5B166344652F /* Pods-yodelsampleswiftUITests.debug.xcconfig */,
+				4E207095178BFD045C956BE6 /* Pods-yodelsampleswiftUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCD4ED111CF3A91B002431D5 = {
+			isa = PBXGroup;
+			children = (
+				DCD4ED1C1CF3A91B002431D5 /* yodelsampleswift */,
+				DCD4ED311CF3A91B002431D5 /* yodelsampleswiftTests */,
+				DCD4ED3C1CF3A91B002431D5 /* yodelsampleswiftUITests */,
+				DCD4ED1B1CF3A91B002431D5 /* Products */,
+				3CA8E4D1EA330BF623775B6E /* Pods */,
+				29213DA7F64D865977D0A710 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DCD4ED1B1CF3A91B002431D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4ED1A1CF3A91B002431D5 /* Yodel Travel.app */,
+				DCD4ED2E1CF3A91B002431D5 /* yodelsampleswiftTests.xctest */,
+				DCD4ED391CF3A91B002431D5 /* yodelsampleswiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCD4ED1C1CF3A91B002431D5 /* yodelsampleswift */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4ED1D1CF3A91B002431D5 /* AppDelegate.swift */,
+				DCD4ED1F1CF3A91B002431D5 /* ViewController.swift */,
+				DCD4ED211CF3A91B002431D5 /* Main.storyboard */,
+				DCD4ED7F1CF66A2C002431D5 /* TumblrFetchr.swift */,
+				DCD4ED831CF7D2D8002431D5 /* TumblrPostCell.swift */,
+				DCD4ED241CF3A91B002431D5 /* Assets.xcassets */,
+				DCD4ED811CF79B5D002431D5 /* PostClass.swift */,
+				DCD4ED681CF3C4B6002431D5 /* NativeAdCell.swift */,
+				DCD4ED261CF3A91B002431D5 /* LaunchScreen.storyboard */,
+				DC197D411CFF91D60075D0DD /* MapViewController.swift */,
+				DCD4ED291CF3A91B002431D5 /* Info.plist */,
+			);
+			path = yodelsampleswift;
+			sourceTree = "<group>";
+		};
+		DCD4ED311CF3A91B002431D5 /* yodelsampleswiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4ED321CF3A91B002431D5 /* yodelsampleswiftTests.swift */,
+				DCD4ED341CF3A91B002431D5 /* Info.plist */,
+			);
+			path = yodelsampleswiftTests;
+			sourceTree = "<group>";
+		};
+		DCD4ED3C1CF3A91B002431D5 /* yodelsampleswiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DCD4ED3D1CF3A91B002431D5 /* yodelsampleswiftUITests.swift */,
+				DCD4ED3F1CF3A91B002431D5 /* Info.plist */,
+			);
+			path = yodelsampleswiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCD4ED191CF3A91B002431D5 /* yodelsampleswift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4ED421CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswift" */;
+			buildPhases = (
+				2900F9BE887420C1ABD07ED2 /* 📦 Check Pods Manifest.lock */,
+				DCD4ED161CF3A91B002431D5 /* Sources */,
+				DCD4ED171CF3A91B002431D5 /* Frameworks */,
+				DCD4ED181CF3A91B002431D5 /* Resources */,
+				9DB0BAD4104337E382E36A15 /* 📦 Embed Pods Frameworks */,
+				1081A821280BF46C75E5105F /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = yodelsampleswift;
+			productName = yodelsampleswift;
+			productReference = DCD4ED1A1CF3A91B002431D5 /* Yodel Travel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DCD4ED2D1CF3A91B002431D5 /* yodelsampleswiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4ED451CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswiftTests" */;
+			buildPhases = (
+				6783381A17368BC052995F7B /* 📦 Check Pods Manifest.lock */,
+				DCD4ED2A1CF3A91B002431D5 /* Sources */,
+				DCD4ED2B1CF3A91B002431D5 /* Frameworks */,
+				DCD4ED2C1CF3A91B002431D5 /* Resources */,
+				A1CBC0689621A488F97479FB /* 📦 Embed Pods Frameworks */,
+				E58A9CB7F5EF40564EF811A7 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD4ED301CF3A91B002431D5 /* PBXTargetDependency */,
+			);
+			name = yodelsampleswiftTests;
+			productName = yodelsampleswiftTests;
+			productReference = DCD4ED2E1CF3A91B002431D5 /* yodelsampleswiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DCD4ED381CF3A91B002431D5 /* yodelsampleswiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD4ED481CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswiftUITests" */;
+			buildPhases = (
+				4B2F050773933897719DF173 /* 📦 Check Pods Manifest.lock */,
+				DCD4ED351CF3A91B002431D5 /* Sources */,
+				DCD4ED361CF3A91B002431D5 /* Frameworks */,
+				DCD4ED371CF3A91B002431D5 /* Resources */,
+				0EF416034FB1D5926E286810 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DCD4ED3B1CF3A91B002431D5 /* PBXTargetDependency */,
+			);
+			name = yodelsampleswiftUITests;
+			productName = yodelsampleswiftUITests;
+			productReference = DCD4ED391CF3A91B002431D5 /* yodelsampleswiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCD4ED121CF3A91B002431D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Samuel Coby Anderson";
+				TargetAttributes = {
+					DCD4ED191CF3A91B002431D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = X9364P9AF2;
+					};
+					DCD4ED2D1CF3A91B002431D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCD4ED191CF3A91B002431D5;
+					};
+					DCD4ED381CF3A91B002431D5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = DCD4ED191CF3A91B002431D5;
+					};
+				};
+			};
+			buildConfigurationList = DCD4ED151CF3A91B002431D5 /* Build configuration list for PBXProject "yodelsampleswift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCD4ED111CF3A91B002431D5;
+			productRefGroup = DCD4ED1B1CF3A91B002431D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCD4ED191CF3A91B002431D5 /* yodelsampleswift */,
+				DCD4ED2D1CF3A91B002431D5 /* yodelsampleswiftTests */,
+				DCD4ED381CF3A91B002431D5 /* yodelsampleswiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCD4ED181CF3A91B002431D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4ED281CF3A91B002431D5 /* LaunchScreen.storyboard in Resources */,
+				DCD4ED251CF3A91B002431D5 /* Assets.xcassets in Resources */,
+				DCD4ED231CF3A91B002431D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED2C1CF3A91B002431D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED371CF3A91B002431D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EF416034FB1D5926E286810 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yodelsampleswiftUITests/Pods-yodelsampleswiftUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1081A821280BF46C75E5105F /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2900F9BE887420C1ABD07ED2 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B2F050773933897719DF173 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6783381A17368BC052995F7B /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DB0BAD4104337E382E36A15 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yodelsampleswift/Pods-yodelsampleswift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1CBC0689621A488F97479FB /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58A9CB7F5EF40564EF811A7 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-yodelsampleswiftTests/Pods-yodelsampleswiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCD4ED161CF3A91B002431D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4ED201CF3A91B002431D5 /* ViewController.swift in Sources */,
+				DCD4ED691CF3C4B6002431D5 /* NativeAdCell.swift in Sources */,
+				DCD4ED1E1CF3A91B002431D5 /* AppDelegate.swift in Sources */,
+				DCD4ED841CF7D2D8002431D5 /* TumblrPostCell.swift in Sources */,
+				DCD4ED821CF79B5D002431D5 /* PostClass.swift in Sources */,
+				DCD4ED801CF66A2C002431D5 /* TumblrFetchr.swift in Sources */,
+				DC197D421CFF91D60075D0DD /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED2A1CF3A91B002431D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4ED331CF3A91B002431D5 /* yodelsampleswiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCD4ED351CF3A91B002431D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCD4ED3E1CF3A91B002431D5 /* yodelsampleswiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DCD4ED301CF3A91B002431D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD4ED191CF3A91B002431D5 /* yodelsampleswift */;
+			targetProxy = DCD4ED2F1CF3A91B002431D5 /* PBXContainerItemProxy */;
+		};
+		DCD4ED3B1CF3A91B002431D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DCD4ED191CF3A91B002431D5 /* yodelsampleswift */;
+			targetProxy = DCD4ED3A1CF3A91B002431D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DCD4ED211CF3A91B002431D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD4ED221CF3A91B002431D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCD4ED261CF3A91B002431D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCD4ED271CF3A91B002431D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCD4ED401CF3A91B002431D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DCD4ED411CF3A91B002431D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCD4ED431CF3A91B002431D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274C8B9DDDD24AD01016A8FA /* Pods-yodelsampleswift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yodelsampleswift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yodelsampleswift",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.SwiftlyYodel;
+				PRODUCT_NAME = "Yodel Travel";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Debug;
+		};
+		DCD4ED441CF3A91B002431D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0EF182F1E6EA7FD7631FFC /* Pods-yodelsampleswift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = yodelsampleswift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/yodelsampleswift",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.SwiftlyYodel;
+				PRODUCT_NAME = "Yodel Travel";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+			};
+			name = Release;
+		};
+		DCD4ED461CF3A91B002431D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E6C971A38897E05D42EFA5C /* Pods-yodelsampleswiftTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yodelsampleswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.yodelsampleswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yodelsampleswift.app/yodelsampleswift";
+			};
+			name = Debug;
+		};
+		DCD4ED471CF3A91B002431D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68C9774A11D9507731F5BDF /* Pods-yodelsampleswiftTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = yodelsampleswiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.yodelsampleswiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/yodelsampleswift.app/yodelsampleswift";
+			};
+			name = Release;
+		};
+		DCD4ED491CF3A91B002431D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8512CEA75F3E5B166344652F /* Pods-yodelsampleswiftUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = yodelsampleswiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.yodelsampleswiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yodelsampleswift;
+			};
+			name = Debug;
+		};
+		DCD4ED4A1CF3A91B002431D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E207095178BFD045C956BE6 /* Pods-yodelsampleswiftUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = yodelsampleswiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yahoo.yodelsampleswiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = yodelsampleswift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCD4ED151CF3A91B002431D5 /* Build configuration list for PBXProject "yodelsampleswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4ED401CF3A91B002431D5 /* Debug */,
+				DCD4ED411CF3A91B002431D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD4ED421CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4ED431CF3A91B002431D5 /* Debug */,
+				DCD4ED441CF3A91B002431D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD4ED451CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4ED461CF3A91B002431D5 /* Debug */,
+				DCD4ED471CF3A91B002431D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD4ED481CF3A91B002431D5 /* Build configuration list for PBXNativeTarget "yodelsampleswiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCD4ED491CF3A91B002431D5 /* Debug */,
+				DCD4ED4A1CF3A91B002431D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCD4ED121CF3A91B002431D5 /* Project object */;
+}
