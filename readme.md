@@ -1,6 +1,6 @@
 # Yodel Travels- iOS Sample App in Swift
 
-![](Screenshots.png)
+![](screenshots.png)
 
 ## Learning Goals
 Yodel Travels is a recognized iOS sample app built in Swift using Yahoo’s Flurry. It was made to showcase Flurry’s analytics and ad-serving platforms and demonstrate best practices for logging analytics events and implementing both native stream and expandable native ads. A newer invention, expandable native ads create the most benefits for the publisher, developer, and user by  By reviewing the well-commented sample code a Swift developer can learn how to best:
